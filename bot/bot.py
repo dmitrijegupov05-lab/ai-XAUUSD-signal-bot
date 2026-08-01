@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO)
 with open('config.json', 'r') as f:
     config = json.load(f)
 
-TOKEN = config['telegram_token']
+TOKEN = os.environ.get('TELEGRAM_TOKEN')
 CHAT_ID = None
 
 # ========== КОМАНДЫ ==========
