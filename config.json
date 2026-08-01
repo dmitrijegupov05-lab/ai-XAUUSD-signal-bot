@@ -1,0 +1,5 @@
+{
+  "telegram_token": "ЗДЕСЬ_ТОКЕН_ОТ_BOTFATHER",
+  "symbol": "XAUUSD",
+  "update_interval_seconds": 300
+}
